@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Meal For Your Ingredients</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container ">
+        <div class="meal-wrapper bg-warning">
+            <div class="meal-search">
+                <div class="h2 text-center mt-4">Find Meals For Your Ingredient</div>
+
+                <blockquote class="blockquote text-center">Real Food Doesnt Have Ingredients Real Food is Ingredient<br>
+                    <cite>-jamie oliver</cite>
+                </blockquote>
+            </div>
+
+
+            <div class="meal-search-box">
+
+
+                <div class="input-group rounded mt-4">
+                    <input type="search" class="form-control rounded" placeholder="Enter an Ingredient"
+                        id="search-input" aria-label="Search" aria-describedby="search-addon" />
+                    <span class="input-group-text border-0" id="search-addon">
+
+                        <button aria-label="Submit form" type="submit" class="btn btn-primary search-btn" id = "search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </span>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="meal-result">
+
+
+        <h2 class="title text-center">Your Search Results:</h2>
+        <div id="meal">
+
+
+             <div class="container">
+                <div class="meal-div">
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="card shadow-lg">
+                                <div class="card-body py-4">
+                                    <div class="meal-img">
+                                        <img src="./assets/food.jpg" class=" img-fluid mx-auto d-block"
+                                            alt="Responsive image">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="meal-name">
+                                <div class="h3 text-center">
+                                    Potato Chips
+                                </div>
+                                <p class="d-flex justify-content-center">
+                                    <button class="btn btn-warning">
+                                    <a href="" class="recipe-btn text-white">
+                                        Get Recipe
+                                    </a>
+                                </button>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                            <div class="card shadow-lg">
+                                <div class="card-body py-4">
+                                    <div class="meal-imgg ">
+                                        <img src="./assets/food.jpg" class="img-fluid mx-auto d-block"
+                                            alt="Responsive image">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="meal-name">
+                                <div class="h3 text-center">
+                                    Potato Chips
+                                </div>
+                                <p class="d-flex justify-content-center">
+                                    <button class="btn btn-warning">
+                                        <a href="" class="recipe-btn text-white">
+                                            Get Recipe
+                                        </a>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="card shadow-lg">
+                                <div class="card-body py-4">
+                                    <div id="meal">
+                                        <div class="meal-img ">
+                                            <img src="./assets/food.jpg" class="img-fluid mx-auto d-block"
+                                                alt="Responsive image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="meal-name">
+                                <div class="h3 text-center">
+                                    Potato Chips
+                                </div>
+                                <p class="d-flex justify-content-center">
+                                    <button class="btn btn-warning">
+                                        <a href="" class="recipe-btn text-white">
+                                            Get Recipe
+                                        </a>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                            <div class="card shadow-lg">
+                                <div class="card-body py-4">
+                                    <div class="meal-img ">
+                                        <img src="./assets/food.jpg" class="img-fluid mx-auto d-block"
+                                            alt="Responsive image">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="meal-name">
+                                <div class="h3 text-center">
+                                    Potato Chips
+                                </div>
+                                <p class="d-flex justify-content-center">
+                                    <button class="btn btn-warning">
+                                        <a href="" class="recipe-btn text-white">
+                                            Get Recipe
+                                        </a>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="meal-details bg-warning">
+
+                <button class="btn btn-warning">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                    <div class="meal-details-content">
+                        <div class="recipe-title h2 text-center">Meals
+                            Name Here
+                        </div>
+                            <p class="recipe-category text-center">
+                                Category Name
+                            </p>
+                            <div class="recipe-instruct text-center">
+                                    <div class="h3">Instructions:
+                                    </div>
+                                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Suscipit, dignissimos. Voluptates
+                                                fuga sequi dolores velit mollitia quas voluptatem<br> quisquam, vero molestiae ipsa ex atque
+                                                magni, consectetur adipisci ut sit commodi.
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Necessitatibus repellendus adipisci perferendis maxime blanditiis<br> unde itaque quisquam, laudantium doloremque rem?</p>
+                            </div>
+                                <div class="recipecard">
+                                        <div class="recipe-meal-img">
+                                            <img src="./assets/food.jpg" alt="" class="img-fluid mx-auto d-block rcard-img">
+                                        </div>
+
+
+                                    <div class="recipe-link">
+                                        <a href="#" taret="_blank">watch video</a>
+                                    </div>
+
+                                </div>
+
+
+
+                    </div>
+
+            </div>
+
+
+ 
+
+
+            <hr>
+            <footer class="footer bg-dark text-white">
+                <div class="container">
+                    <div class="row pt-5">
+                        <div class="col-md-4 ">
+                            <h5 class="text-secondary">About Us</h5>
+                            <p>Your go-to platform for discovering delicious meals based on ingredients you have. Join our community of food lovers!</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 class="text-secondary">Quick Links</h5>
+                            <ul class="ul text-white">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Recipes</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 class="text-secondary">Contact Us</h5>
+                            <p>Email: support@meal-finder.com</p>
+                            <p>Phone: (123) 456-7890</p>
+                            <div class="social-media">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                    </div>
+                </div>
+            </footer>
+
+            <div class="col-md-12 text-center fw-bold">
+                            <p>&copy; 2024 Meal Finder. All Rights Reserved.</p>
+                        </div>
+<script src="./script.js"></script>
+</body>
+
+</html>
